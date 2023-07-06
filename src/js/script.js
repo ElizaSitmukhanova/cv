@@ -8,7 +8,7 @@ humburger.addEventListener('click', () => {
 });
 
 closeBtn.addEventListener('click', () => {
-    menu.remove('active');
+    menu.classList.remove('active');
 });
 
 //counter 
