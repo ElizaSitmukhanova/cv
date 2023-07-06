@@ -4,7 +4,6 @@ const humburger = document.querySelector('.humburger'),
 
 humburger.addEventListener('click', () => {
     menu.classList.add('active');
-    console.log('ddsg')
 });
 
 closeBtn.addEventListener('click', () => {
