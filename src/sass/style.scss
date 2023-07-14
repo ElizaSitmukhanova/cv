@@ -21,6 +21,8 @@
     background-color: $main-color;
     margin: 25px auto 0 auto;
 }
+
+
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/buttons';
@@ -31,5 +33,6 @@
 @import 'blocks/skills';
 @import 'blocks/portfolio';
 @import 'blocks/contacts';
+@import 'blocks/modal';
 @import 'blocks/media';
 
