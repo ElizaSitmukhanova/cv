@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   /*   setTimeout(() => {
                         statusMessage.remove();
                     }, 5000); */
+                    
                 } else {
                     statusMessage.textContent = message.failure;
                 }
