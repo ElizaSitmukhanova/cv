@@ -85,11 +85,38 @@
 
         input {
             margin-right: 10px;
-              
+            display: none;
+            &:checked + .contacts__policy-label::after {
+                transform: scale(1);
+            } 
         }
        
         &-label{
             cursor: pointer;
+            display: inline-flex;
+            align-content: center;
+            &::before {
+                content: '';
+                display: block;
+                align-self: flex-start;
+                background-color: black;
+                border-radius: 4px;
+                height: 18px;
+                width: 18px;
+                margin-right: 10px;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                display: block;
+                background-color: $main-color;
+                border-radius: 4px;
+                height: 12px;
+                width: 12px;
+                top: 17px;
+                left: 3px;
+                transform: scale(0);
+            }
             a {
                 color: $main-color;
                 font-weight: 700;
